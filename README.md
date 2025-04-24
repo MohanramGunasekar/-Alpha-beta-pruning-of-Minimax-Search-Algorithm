@@ -1,6 +1,7 @@
 <h1>ExpNo 7 : Implement Alpha-beta pruning of Minimax Search Algorithm for a Simple TIC-TAC-TOE game</h1> 
-<h3>Name:Priyadharshan S       </h3>
-<h3>Register Number/Staff Id:212223240127         </h3>
+<h3>Date:   </h3>
+<h3>Name: MOHANRAM GUNASEKAR   </h3>
+<h3>Register Number: 212223240095       </h3>
 <H3>Aim:</H3>
 <p>
 Implement Alpha-beta pruning of Minimax Search Algorithm for a Simple TIC-TAC-TOE game
@@ -23,10 +24,9 @@ Alpha–Beta (𝛼−𝛽) algorithm is actually an improved minimax using a heu
 
 When added to a simple minimax algorithm, it gives the same output but cuts off certain branches that can’t possibly affect the final decision — dramatically improving the performance
 <hr>
-<h3>Program</h3>
-<h3>Program:</h3>
+<h2>Program:</h2>
 
-```python
+```
 import time
 
 class Game:
@@ -200,20 +200,20 @@ class Game:
                 self.current_state[px][py] = 'O'
                 self.player_turn = 'X'
 
-g = Game()
-g.play_alpha_beta()
 
+
+def main():
+    g = Game()
+    g.play_alpha_beta()
+
+if __name__ == "__main__":
+    main()
+    
 ```
-<hr>
-<hr>
-<h2>Sample Input and Output:</h2>
 
-![image](https://github.com/natsaravanan/19AI405FUNDAMENTALSOFARTIFICIALINTELLIGENCE/assets/87870499/8d5e329a-9aff-41a6-bcf0-46efa10e1b92)
-![image](https://github.com/natsaravanan/19AI405FUNDAMENTALSOFARTIFICIALINTELLIGENCE/assets/87870499/438b242d-54ba-443e-b040-a936e6ae3b55)
-![image](https://github.com/natsaravanan/19AI405FUNDAMENTALSOFARTIFICIALINTELLIGENCE/assets/87870499/99a33390-fa11-4ade-a19f-e93bcd7aaec9)
-![image](https://github.com/natsaravanan/19AI405FUNDAMENTALSOFARTIFICIALINTELLIGENCE/assets/87870499/440797bd-53cb-49c1-b18d-89776864c3e7)
-![image](https://github.com/natsaravanan/19AI405FUNDAMENTALSOFARTIFICIALINTELLIGENCE/assets/87870499/81575a16-26b2-46f1-a8ac-27c9ed0a0fe5)
+## Output:
 
+![image](https://github.com/user-attachments/assets/867eccf9-64c0-4da5-afdf-de52510ac2ef)
 
-<h3>Result:</h3>
-Hence Alpha-beta pruning of Minimax Search Algorithm for a Simple TIC-TAC-TOE game has been implemented.
+## Result:
+We have successfully implemented Alpha-beta pruning of Minimax Search Algorithm for a Simple TIC-TAC-TOE game
